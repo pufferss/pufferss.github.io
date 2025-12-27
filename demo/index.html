@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cool Demo</title>
+	<style>
+		canvas {border: 1px solid black;}
+	</style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<style></style>
+</head>
+<body>
+	<canvas id="myCanvas" width="640" height="480"></canvas>
+	<script type="importmap">
+		{
+		"imports": {
+		"three": "./js/three.module.min.js",
+		"gltf": "./js/GLTFLoader.js",
+		"orbitcontrols": "./js/OrbitControls.js"
+			}
+		}
+	</script>
+	<script type="module" src="./js/tp1.js"></script>
+
+	<div id="press_space">Press space bar !</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#press_space{
+	position: absolute;
+	top: 40rem;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block; 
+	color: white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: xx-large;
+	cursor: default;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
